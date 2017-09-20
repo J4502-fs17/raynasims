@@ -1,0 +1,76 @@
+/*styles go here*/
+
+/*p {
+  color: red;
+}*/
+
+p {
+  color: black;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Merriweather Sans',Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  /*font-family: Georgia, "Times New Roman", serif;*/
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+}
+
+body {
+  background-color: #FFDC77;
+}
+
+#container {
+  /*margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin: 0 auto 0 auto; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.caption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  text-align: right;
+  margin-top: 5px;
+}
+
+#nav {
+  padding: 0;
+}
+
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav a:link {
+  display: block;
+  color: #A012B2;
+  background-color: #14CC9A;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #09B284;
+}
+
+
+#links a:link {
+    color: #A012B2;
+    font-size: 25px;
+      font-weight: bold;
+    text-align: center;
+    font-family: 'Amatic SC', "Apple Chancery", cursive;
+    text-decoration: none;
+}
+
+#links a:hover, #links a:active{
+  color: white;
+
+}
