@@ -4,6 +4,7 @@
   color: red;
 }*/
 
+
 img{
   border: none;
 }
@@ -23,16 +24,16 @@ h1 {
 body {
   background-color: #FFDC77;
 }
-
+/*
 #container {
   /*margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
   margin: 0 auto 0 auto; */
-  width: 90%;
+  /*width: 90%;
   margin: 0 auto;
-}
+}*/
 
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -81,4 +82,11 @@ body {
 }
 
 ul {list-style-type: none;
+}
+
+.container {
+	display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
 }
