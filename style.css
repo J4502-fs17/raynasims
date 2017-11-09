@@ -143,16 +143,6 @@ h1 {
 body {
   background-color: #B5EADD;
 }
-/*
-#container {
-  /*margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin: 0 auto 0 auto; */
-  /*width: 90%;
-  margin: 0 auto;
-}*/
 
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -208,4 +198,50 @@ ul {list-style-type: none;
   flex-direction: row;
 	flex-wrap: wrap;
 	align-content: center;
+}
+
+/*
+javascript stuff and hamburger menu starts below*/
+
+
+
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+    text-decoration: none;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+.container {
+    display: none;
+}
+
+@media screen and (min-width: 700px){
+
+    .container {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
 }
